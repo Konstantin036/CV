@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konstantin Malešević - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Inter font globally */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Add some subtle styling for list items */
+        ul li {
+            position: relative;
+            padding-left: 1.5rem; /* Space for the bullet */
+        }
+        ul li::before {
+            content: '•'; /* Bullet character */
+            position: absolute;
+            left: 0;
+            color: #4a5568; /* Gray bullet color */
+        }
+        /* Style for section headings */
+        h2 {
+            border-bottom: 2px solid #e2e8f0; /* Light gray bottom border */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600; /* Semibold */
+            color: #1a202c; /* Darker gray */
+        }
+        /* Style for sub-headings within experience */
+        h3 {
+            font-weight: 500; /* Medium weight */
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: #2d3748; /* Slightly lighter gray */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 leading-relaxed">
+
+    <div class="container mx-auto max-w-4xl p-6 md:p-12 bg-white shadow-lg rounded-lg my-10">
+
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">KONSTANTIN MALEŠEVIĆ</h1>
+            <p class="text-lg text-gray-600">Computer Science and Automation Student</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+            <div class="md:col-span-1 space-y-8">
+                <section id="contact">
+                    <h2 class="text-2xl">CONTACT</h2>
+                    <ul class="space-y-2 list-none p-0">
+                        <li>+381628535673</li>
+                        <li>kolemalesevic7@gmail.com</li>
+                        <li>Novi Sad, Serbia</li>
+                    </ul>
+                </section>
+
+                <section id="education">
+                    <h2 class="text-2xl">EDUCATION</h2>
+                    <p class="font-semibold">FACULTY OF TECHNICAL SCIENCES, UNIVERSITY OF NOVI SAD</p>
+                    <p class="text-sm text-gray-600">2022 – Present</p>
+                    <ul class="mt-2 space-y-1 list-none p-0 text-sm">
+                        <li>Study Program: Computer Science and Automation</li>
+                        <li>Specialization: Computer Control Systems</li>
+                    </ul>
+                </section>
+
+                <section id="technical-skills">
+                    <h2 class="text-2xl">TECHNICAL SKILLS</h2>
+                    <ul class="space-y-2 list-disc list-inside">
+                        <li><strong>Programming:</strong> C++, C, Python, Java, Assembly (x86, 8051), VHDL, Julia</li>
+                        <li><strong>PLC & Industrial Automation:</strong> PLC Programming (Siemens TIA Portal), Factory I/O, Industrial Sensors (Inductive, Ultrasonic)</li>
+                        <li><strong>Embedded Systems:</strong> Microcontrollers (8051-AT89C51RC2, ESP32, Arduino), Communication Protocols (UART, SPI, COBS), Hardware-level Programming</li>
+                        <li><strong>Automation & Control:</strong> Control Systems Theory (PID Control), System Modeling and Simulation</li>
+                        <li><strong>Tools & OS:</strong> MATLAB, Simulink, Linux</li>
+                        <li><strong>Other:</strong> Fundamentals of AI Algorithms, Operating System Principles</li>
+                    </ul>
+                </section>
+
+                <section id="soft-skills">
+                    <h2 class="text-2xl">SOFT SKILLS</h2>
+                    <ul class="space-y-1 list-disc list-inside">
+                        <li>Teamwork & Collaboration</li>
+                        <li>Complex Problem-Solving</li>
+                        <li>Analytical Thinking</li>
+                        <li>Initiative & Creativity</li>
+                        <li>Organizational Skills & Planning</li>
+                        <li>Critical Thinking</li>
+                        <li>Responsibility & Work Discipline</li>
+                        <li>Adaptability & Readiness for Challenges</li>
+                        <li>Professional Development</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="md:col-span-2 space-y-8">
+                <section id="profile-summary">
+                    <h2 class="text-2xl">PROFILE SUMMARY</h2>
+                    <p>
+                        Highly motivated and curious third-year Computer Science and Automation student at the Faculty of Technical Sciences, University of Novi Sad, specializing in Computer Control Systems. Possessing a strong passion for research, learning, and solving complex technical problems. I thrive on challenges and competitions as opportunities to apply knowledge and gain new experiences. Focused on the design and implementation of embedded systems, industrial automation, and system modeling. Through diverse academic projects and competitions, I have gained practical experience in analytical approaches, effective teamwork, and developing innovative solutions. Eager to apply and further develop my technical skills in a dynamic environment that fosters technological advancement.
+                    </p>
+                </section>
+
+                <section id="experience">
+                    <h2 class="text-2xl">EXPERIENCE / PROJECTS</h2>
+
+                    <div>
+                        <h3 class="text-xl">PLC and Industrial Automation (Siemens TIA Portal & Factory I/O)</h3>
+                        <ul class="space-y-3 list-disc list-inside ml-4">
+                            <li>
+                                <strong>Parking System Automation:</strong> Designed and implemented PLC logic (TIA Portal) for managing a modern parking system, including barrier control and sensor signal processing.
+                            </li>
+                            <li>
+                                <strong>Elevator Control:</strong> Developed a PLC program (TIA Portal) to control elevator movement sequences, floor selection, and implement safety logic.
+                            </li>
+                            <li>
+                                <strong>Robotic Arm Automation (Pick & Place):</strong> Programmed PLC logic (TIA Portal) for a robotic arm transferring objects between conveyor belts. Process simulated and visualized using Factory I/O software, utilizing industrial sensors (inductive, ultrasonic).
+                            </li>
+                            <li>
+                                <strong>Bottle Filling Line Simulation:</strong> Created a simulation and implemented sequential control for a bottle filling and capping process on a conveyor line.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl">Embedded Systems</h3>
+                        <ul class="space-y-3 list-disc list-inside ml-4">
+                            <li>
+                                <strong>8051 Microcontroller Programming (AT89C51RC2):</strong> Programmed the AT89C51RC2 (8051 architecture) for embedded applications, including timer handling, peripheral configuration, and communication protocol implementation. Applied in a conveyor belt system simulation.
+                            </li>
+                            <li>
+                                <strong>Motor Control for Fruit Sorting Conveyor:</strong> Developed a system for controlling motors on a conveyor belt that sorts fruit based on camera input data.
+                            </li>
+                            <li>
+                                <strong>Smart Pot (Arduino):</strong> Designed and implemented a smart pot prototype using the Arduino platform, featuring humidity sensors and an automatic watering system.
+                            </li>
+                            <li>
+                                <strong>Digital Calculator (Arduino):</strong> Realized a hardware and software calculator project using the Arduino platform.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl">Software Development and Simulation</h3>
+                        <ul class="space-y-3 list-disc list-inside ml-4">
+                            <li>
+                                <strong>MAVN 32 Compiler (C++):</strong> Developed a compiler in C++ to translate a high-level language into MAVN 32 assembly code, implementing lexical, syntax, and semantic analysis phases.
+                            </li>
+                            <li>
+                                <strong>Insulin Pump Modeling and Simulation (MATLAB/Simulink):</strong> Designed and simulated a closed-loop system with PID control for automatic glucose regulation using MATLAB/Simulink. Analyzed system performance focusing on robustness and precision.
+                            </li>
+                            <li>
+                                <strong>AI Tic-Tac-Toe Game:</strong> Implemented a Tic-Tac-Toe game with an AI opponent.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div> <footer class="text-center mt-12 pt-6 border-t border-gray-300">
+            <p class="text-sm text-gray-500">&copy; 2025 Konstantin Malešević. All rights reserved.</p>
+        </footer>
+
+    </div> </body>
+</html>
